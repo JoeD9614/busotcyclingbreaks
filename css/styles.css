@@ -27,20 +27,18 @@ p {
 }
 
 /* Containers */
-
 .container-fluid {
   padding: 7% 15%;
 }
 
 /* Sections */
-
 .navy-section {
   background-color: #10375C;
   color: #fff;
 }
+
 .teal-section {
   background-color: #127681;
-
 }
 
 .yellow-section {
@@ -54,7 +52,6 @@ p {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -75,7 +72,6 @@ p {
 }
 
 /* Title Section */
-
 #title {
   background-color: #10375c;
   color: #fff;
@@ -87,11 +83,9 @@ p {
 }
 
 /* Title Image */
-
 .title-image {
-  width: 120%;
+  width: 90%;
   position: relative;
-  padding-left: 10%;
   padding-top: 25%;
 }
 
@@ -100,15 +94,12 @@ p {
   padding-top: 10%;
 }
 
-
-
 /* Bicycle Icons */
 .fa-bicycle {
   padding: 10% 1% 1% 1%;
 }
 
 /* Quick Info Section */
-
 #features {
   background-color: #fff;
   position: relative;
@@ -148,7 +139,6 @@ p {
   width: 40%;
   height: 40%;
   margin: 25px;
-
 }
 
 #press {
@@ -162,7 +152,6 @@ p {
 }
 
 /* Bikes Section */
-
 .bikes-heading {
   padding: 75px 75px 75px 75px;
   font-size: 3rem;
@@ -179,9 +168,7 @@ p {
   height: 25%;
 }
 
-
 /* Pricing Section */
-
 #pricing {
   padding: 100px;
 }
@@ -200,25 +187,12 @@ p {
   padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
+  /* Getting there & COVID */
+  .icon-bottom {
+    color: #fff;
   }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
+  /* Footer */
+  .social-icon {
+    margin: 20px 10px;
   }
-
-
-/* Getting there & COVID */
-
-.icon-bottom {
-  color: #fff;
-}
-
-
-/* Footer */
-.social-icon {
-  margin: 20px 10px;
-}
