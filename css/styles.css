@@ -1,0 +1,224 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #f3c623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #f3c623;
+  padding-top: 5%;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.navy-section {
+  background-color: #10375C;
+  color: #fff;
+}
+.teal-section {
+  background-color: #127681;
+
+}
+
+.yellow-section {
+  background-color: #f3c623;
+  color: #10375C;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #10375C;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title Section */
+
+#title {
+  background-color: #10375c;
+  color: #fff;
+  text-align: left;
+}
+
+#title.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 120%;
+  position: relative;
+  padding-left: 10%;
+  padding-top: 25%;
+}
+
+/*  Below Title Text */
+.title-text {
+  padding-top: 10%;
+}
+
+
+
+/* Bicycle Icons */
+.fa-bicycle {
+  padding: 10% 1% 1% 1%;
+}
+
+/* Quick Info Section */
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #127681;
+  padding: 10px 30px 10px 30px;
+}
+
+.feature-box {
+  padding: 2%;
+}
+
+.icon-top {
+  color: #10375c;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #10375c;
+}
+
+/* Detailed Info Section  */
+#testimonials {
+  background-color: #127681;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 40%;
+  height: 40%;
+  margin: 25px;
+
+}
+
+#press {
+  background-color: #fff;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 40px 20px 30px 50px;
+}
+
+/* Bikes Section */
+
+.bikes-heading {
+  padding: 75px 75px 75px 75px;
+  font-size: 3rem;
+  color: #10375c;
+}
+
+.bikes-text {
+  color: #10375c;
+  padding: 100px 100px 100px 100px;
+}
+
+.bikes-image {
+  width: 25%;
+  height: 25%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #10375c;
+}
+
+.offer-heading {
+  color: #fff;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+/* Getting there & COVID */
+
+.icon-bottom {
+  color: #fff;
+}
+
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
